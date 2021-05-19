@@ -1,0 +1,58 @@
+   h1 {
+	color: #104122;
+}
+  h4 {
+	color: #104122;
+}
+
+.egeButton {
+
+	
+	float: left;
+	
+	width: 100%;
+	height: 130px;
+	max-width: calc(20% - 14px);
+	max-height: calc(20% - 14px);
+	border: 2px solid black;
+	border-radius: 5px;
+	text-align: center;
+	text-color: #002e11;
+}
+
+.egeButton:hover {
+	border: 2px solid lightblue;
+}
+
+.selected {
+	background: #006124;
+	width: 100%;
+	height: 130px;
+	max-width: calc(20% - 14px);
+	max-height: calc(20% - 14px);
+	
+}
+.selected > h4 {
+color: #ffffff;
+}
+
+
+	
+#myBtn {
+  display: none;
+ 
+ width: 100%;
+  
+  border: none;
+  outline: none;
+  background-color: #89d196;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}	
+	
