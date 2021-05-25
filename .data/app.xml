@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.04.00" ExportDate="2021-05-25T17:26:22.7567965+04:00">
+  <Header>
+    <App Guid="1b4a2147-4515-45c1-9259-1a7a26795395" />
+    <Language Default="ru-RU" />
+    <Dimensions>
+      <Dimension DimensionID="4" Name="русский (Россия)" SystemKey="" ExternalKey="ru-RU" Active="true" />
+    </Dimensions>
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="4543fd10-5ad5-4584-84be-a21bca097f70" Json="True" KeyNumber="14">
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="AllowTokenTemplates" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Description" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="DisplayName" Value="EgeNavigator" Type="String" />
+      <Value Key="Folder" Value="EgeNavigator" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Version" Value="00.01.00" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="04cf124a-b449-4fe5-af70-05e4662efb7e" KeyNumber="14" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="20e3756a-089c-4a1e-b97e-8c02ea11eb51" KeyNumber="14" />
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="31fba88c-891c-4996-8239-b0ea9cbb9ed8" Json="True">
+      <Value Key="ContentTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="IsHidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ListContentTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Location" Value="Portal File System" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="EGE Navigator" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Path" Value="_EgeNavigator.cshtml" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="PresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="PublishData" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="StreamsToPublish" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Type" Value="C# Razor" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="UseForList" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewNameInUrl" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+  </Entities>
+  <PortalFiles />
+  <PortalFolders>
+    <Folder Id="13319" RelativePath="adam/EgeNavigator/" />
+  </PortalFolders>
+</SexyContent>
